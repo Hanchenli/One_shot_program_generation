@@ -1,0 +1,6 @@
+Usage: 
+First write a combination of psydo-code and real python code based on your preference.
+Feed this into our compiler by running python3 compiler.py input_file_name output_file_name
+Check out output_file_name!
+
+Whenever want LLM to write code, start with $_$ and put one-line description afterwards. If you want to have a guaranteed output filename to use later, end with "output: ***", where *** is the final output name. Our compiler will check it for you.
